@@ -13,6 +13,7 @@ export function TodoInput({ addTask }: TodoInputProps) {
     if (task === '') {
       return;
     }
+    console.log(task)
     addTask(task);
     setTask('');
   }
